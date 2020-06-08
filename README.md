@@ -1,7 +1,9 @@
 # VULN-WEB
  ⚙️ VULN WEB APP e um laboratório que esta em constante desenvolvimento que visa trazer para o mundo virtual, as falhas mais comuns encontrados em APLICACOES WEB;
- ⚙️ Este e um Laboratorio Open-Source do curso [ HACKING NA PRATICA CEHv10 ], que aborda multiplas vuln's de uma Aplicacoes Web.
- ⚙️ Esta aplicacao esta presente para estudar multiplas vulns de Aplicacoes web como serao apresentadas:
+ 
+⚙️ Este e um Laboratorio Open-Source do curso [ HACKING NA PRATICA CEHv10 ], que aborda multiplas vuln's de uma Aplicacoes Web.
+ 
+⚙️ Esta aplicacao esta presente para estudar vulns em Aplicacoes web como serao apresentadas:
 
    ✅ Injection (sql,php,html etc..)
 
