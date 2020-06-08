@@ -17,6 +17,8 @@
 
 Credits:
  
- ⚙️ CONTA: paypal.me/ALegiaoThs
+ ⚙️ CONTA: paypal.me/ALegiaoThs [ 💵 pay coffe ]
+
  ⚙️ Course: Hacking Na Pratica CHEv10
+
  ☢️ [ A Legiao The Hacker Security ]
