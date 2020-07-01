@@ -1,0 +1,352 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	padding-top: 0px;
+  background: url("./images/Bg.png");
+  background-size: 100%;
+	color: rgb(9, 255, 0);
+  font-family: verdana, arial, sans-serif;
+	text-align: left;
+  letter-spacing: 1px;
+  height: 100%;
+  width: 100%;
+}
+a {color: rgb(143, 143, 143);font-size: 17px;text-decoration:none;}
+a:hover {color: #c00101;}
+.more{float: right; font-size: 11px; color: #1eff00; font-weight: bold; text-decoration: none;}
+.clear{clear:both;}
+p{	margin: 20px 0px 20px 0px;line-height: 16px;font-size: 14px;}
+#container {
+	  margin-left: auto ;
+  margin-right: auto ;
+	width:100%;
+}
+#Main-Container{
+	width:100%;
+  margin-left: auto ;
+  margin-right: auto ;
+}
+#logo {
+width:600px;
+
+	text-align:center;
+ margin-left: auto ;
+  margin-right: auto ;
+}
+input[type=text]
+{
+  border: 2px solid rgb(21, 255, 0); 
+  background: center;
+  font-family: sans-serif;
+  text-align: center; 
+  font-size: 19px;
+  color: #15ff00;
+  height: 30px;
+  width: 50%;
+  margin-top: 10px; 
+}
+input[name=name]
+{
+  border: 2px solid rgb(21, 255, 0);
+  background-color: #000000; 
+  background: center;
+  font-family: sans-serif;
+  text-align: center; 
+  font-size: 19px;
+  color: #15ff00;
+  height: 30px;
+  width: 50%;
+  margin-top: 10px; 
+}
+
+input[name=Upload]
+{
+  border: 2px solid rgb(21, 255, 0);
+  background-color: #000000; 
+  background: center;
+  font-family: sans-serif;
+  text-align: center; 
+  font-size: 19px;
+  color: #15ff00;
+  height: 30px;
+  width: 50%;
+  margin-top: 10px; 
+}
+input[name=Upload]:hover
+{
+  border: 2px solid rgb(21, 255, 0); 
+  background-color: #000000;
+  box-shadow: 1px 1px 15px rgb(81, 255, 0);
+  font-size: 19px;
+  color: #15ff00;
+  height: 30px;
+  width: 50%;
+}
+button[type=submit]
+{
+  border: 2px solid rgb(21, 255, 0); 
+  background-color: #000000;
+  font-family: Arial;
+  margin-top: 10px; 
+  font-size: 19px;
+  color: #15ff00;
+  height: 30px;
+  width: 50%;
+}
+button[type=submit]:hover
+{
+  border: 2px solid rgb(21, 255, 0); 
+  background-color: #000000;
+  box-shadow: 1px 1px 15px rgb(81, 255, 0);
+  font-family: Arial;
+  font-size: 19px;
+  color: #15ff00;
+  height: 30px;
+  width: 50%;
+}
+input[type=submit]
+{
+  border: 2px solid rgb(21, 255, 0); 
+  background-color: #000000;
+  font-family: Arial;
+  margin-top: 10px; 
+  font-size: 19px;
+  color: #15ff00;
+  height: 30px;
+  width: 50%;
+}
+input[type=submit]:hover
+{
+  border: 2px solid rgb(21, 255, 0); 
+  background-color: #000000;
+  box-shadow: 1px 1px 15px rgb(81, 255, 0);
+  font-family: Arial;
+  font-size: 19px;
+  color: #15ff00;
+  height: 30px;
+  width: 50%;
+}
+input[type=password]
+{
+  border: 2px solid rgb(21, 255, 0); 
+  background-color: #000000;
+  font-family: Arial;
+  margin-top: 10px; 
+  font-size: 19px;
+  color: #15ff00;
+  height: 30px;
+  width: 50%;
+}
+textarea[name=msg]
+{
+  border: 2px solid rgb(21, 255, 0); 
+  background-color: #0c0c0c;
+  box-shadow: 1px 1px 15px rgb(81, 255, 0);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 19px;
+  color: #15ff00;
+}
+#Main{
+	width:750px;
+	height: 500px;
+	    margin-left: auto ;
+  margin-right: auto ;
+}
+#Main h2{
+	color: #d4e5f2;
+	font-family: Arial;
+	font-size: 18px;
+	padding: 0 0 10px 5px;
+}
+
+#left {
+	float:left;
+	width:435px;
+	margin: 0px 0px 0px 85px;
+	display:inline;
+}
+#right {
+	float:right;
+	width:258px;
+	height:auto;
+	margin: 0px 62px 20px 0px;
+	display:inline;
+}
+#right a img{
+	margin: 8px 8px 8px 0px;
+	border: none 0px #FFFFFF;
+}
+#menu-bar {
+width:100%;
+  margin: 0px 0px 0px 0px;
+  padding: 6px 6px 0px 6px;
+  height: 50px;
+  line-height: 100%;
+   border-radius: 0px 0px 0px 0px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  box-shadow: 2px 2px 3px #000000;
+  -webkit-box-shadow: 2px 2px 3px #000000;
+  -moz-box-shadow: 2px 2px 3px #000000;
+  background: #000000;
+  /*border: solid 2px #FFF;*/
+   border-bottom:none; 
+}
+#menu-bar li {
+  margin: 0px 6px 0px 6px;
+  padding: 0px 0px 6px 0px;
+  float: left;
+  position: relative;
+  list-style: none;
+}
+#menu-bar a {
+  font-weight: bold;
+  font-family: arial;
+  font-style: normal;
+  font-size: 12px;
+  color: rgb(21, 255, 0);
+  text-decoration: none;
+  display: block;
+  padding: 8px 20px 8px 20px;
+  margin: 0;
+}
+#menu-bar .current a, #menu-bar li:hover > a {
+  background: rgb(31, 31, 31);
+  background-color: rgb(24, 24, 24) ;
+  color: #15ff00;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .2);
+  -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, .2);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, .2);
+}
+#menu-bar ul li:hover a, #menu-bar li:hover li a {
+  background: none;
+  border: none;
+  color: rgb(29, 29, 29);
+  -box-shadow: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+}
+#menu-bar ul a:hover {
+  background: rgb(9, 255, 0) !important;
+  color: #000000 !important;
+}
+#menu-bar ul {
+  background: rgb(0, 0, 0);
+  color: rgb(9, 255, 0);
+  display: none;
+  margin: 0;
+  padding: 0;
+  width: 250px;
+  position: absolute;
+  top: 30px;
+  left: 0;
+}
+#menu-bar li:hover > ul {
+  display: block;
+}
+#menu-bar ul li {
+  float: none;
+  margin: 0;
+  padding: 0;
+}
+#menu-bar ul a {
+  padding:5px 0 5px 8px;
+  color:#303030 !important;
+  font-size:12px;
+  font-style:normal;
+  font-family:arial;
+  font-weight: normal;
+}
+#menu-bar:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+#menu-bar {
+  display: inline-block;
+}
+  html[xmlns] #menu-bar {
+  display: block;
+}
+* html #menu-bar {
+  height: 1%;
+}
+#menu-bar ul li ul  {
+	 left: 100%; top:0;
+  background: rgb(0, 0, 0);
+}
+
+
+
+
+
+/* Common theme */
+html,
+body,
+:not([style*="background-color:"]) {
+    background-color: rgb(16, 20, 23) !important;
+}
+html,
+body,
+:not([style*="color:"]) {
+    color: rgb(167, 158, 139) !important;
+}
+h1:not([style*="color:"]),
+h2:not([style*="color:"]),
+h3:not([style*="color:"]),
+h4:not([style*="color:"]),
+h5:not([style*="color:"]),
+h6:not([style*="color:"]) {
+    color: rgb(30, 255, 0) !important;
+}
+cite:not([style*="color:"]) {
+    color: rgb(128, 204, 148) !important;
+}
+input:not([style*="background-color:"]),
+textarea:not([style*="background-color:"]),
+button:not([style*="background-color:"]),
+[role="button"] {
+    background-color: rgb(32, 48, 64) !important;
+}
+input:not([style*="background-color:"]):hover,
+textarea:not([style*="background-color:"]):hover,
+button:not([style*="background-color:"]):hover,
+[role="button"]:hover {
+    background-color: rgb(30, 54, 78) !important;
+}
+input:not([style*="background-color:"]):active, input:not([style*="background-color:"]):focus,
+textarea:not([style*="background-color:"]):active, textarea:not([style*="background-color:"]):focus,
+button:not([style*="background-color:"]):active, button:not([style*="background-color:"]):focus,
+[role="button"]:active, [role="button"]:focus {
+    background-color: rgb(29, 56, 83) !important;
+}
+a:not([style*="color:"]) {
+    color: rgb(128, 182, 204) !important;
+}
+a:not([style*="color:"]):hover {
+    color: rgb(142, 193, 217) !important;
+}
+a:not([style*="color:"]):active, a:not([style*="color:"]):focus {
+    color: rgb(155, 203, 230) !important;
+}
+:not([style*="border-color:"]),
+::before,
+::after {
+    border-color: rgb(80, 115, 134) !important;
+}
+div:empty {
+    background-color: rgb(16, 20, 23) !important;
+}
+input::placeholder,
+textarea::placeholder {
+    color: rgb(167, 158, 139) !important;
+}
+input:not([style*="background-image:"]),
+textarea:not([style*="background-image:"]) {
+    background-image: none !important;
+}
